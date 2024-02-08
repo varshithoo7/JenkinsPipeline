@@ -1,7 +1,7 @@
 node {
     stage('Checkout') {
         // Checkout code from version control system (e.g., Git)
-        git 'https://github.com/example/repository.git'
+        git 'https://github.com/varshithoo7/JenkinsPipeline.git'
     }
     
     stage('Build') {
